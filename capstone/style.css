@@ -1,0 +1,396 @@
+body {
+  background-color: hsl(0, 0%, 93%);
+  flex-grow: 2;
+  zoom: 33%;
+}
+
+/* Typography */
+h1 {
+  font-size: 65px;
+  font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: regular;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: regular;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-size: 12px;
+  font-weight: regular;
+  font-family: 'Open Sans', sans-serif;
+}
+
+span {
+  font-size: 12px;
+  font-weight: regular;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li {
+  font-size: 12px;
+  font-weight: regular;
+  font-family: 'Open Sans', sans-serif;
+  display: inline;
+  padding: 0 1rem;
+}
+
+.middle:hover {
+  background-color: hsl(0, 1%, 72%);
+}
+
+/* Content */
+
+.container span {
+  font-size: 40px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 24px;
+  height: 64%;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  margin-right: 1rem;
+}
+
+.left {
+  height: 32px;
+}
+
+.left img {
+  height: 45px;
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+/* Main Mission Container */
+.mission {
+  display: flex;
+  height: auto;
+  background-color: hsl(0, 1%, 72%);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.mission img {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+}
+
+.mission p {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.start {
+  background-color: black;
+  text-align: center;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Information */
+
+ .information {
+   display: flex;
+   height: 100%;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-evenly;
+   align-items: center;
+   align-content: center;
+   width: 100%;
+ }
+
+ .column.a {
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: left;
+   padding-top: 32px;
+   padding-bottom: 32px;
+   padding-left: 24px;
+   padding-right: 24px;
+ }
+
+ .column.a img {
+    width: 100%;
+ }
+
+ .column.a h4 {
+   padding-top: 32px;
+   padding-bottom: 24px;
+ }
+
+ .text {ß
+   width: 90%;
+ }
+
+ .column.b {
+   width: 40%;
+   flex-direction: column;
+   justify-content: space-evenly;
+   height: auto;
+   display: flex;
+   align-items: center;
+   align-content: space-between;
+ }
+
+ .middle {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-content: space-between;
+ }
+
+.middle img {
+  display: flex;
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.right span {
+  width: 65%;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.middle:hover {
+  background-color: hsl(0, 1%, 72%);
+}
+
+/* Start Learning */
+
+ .courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: hsl(0, 1%, 72%);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+ }
+
+.courses h1 {
+  text-align: center;
+}
+
+.row.aa {
+  display: inline-block;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.row.bb {
+  display: block;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.software {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+}
+
+.computer.art {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+}
+
+.design {
+  display: inline-block;
+  flex-direction: row;
+  align-items: column;
+  margin: 20px;
+  word-wrap: break-word;
+}
+
+.data {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+}
+
+.business {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+}
+
+.marketing {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+}
+
+
+/* Thesis Exhibit */
+
+.thesis {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.column.aaa {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+}
+
+.middle:hover {
+  background-color: hsl(0, 1%, 72%);
+}
+
+
+/* Thesis Exhibit */
+
+.thesis {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.column.aaa {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+}
+
+.column.bbb {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+}
+
+.middle video {
+  display: flex;
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 24px;
+  height: 64%;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+}
+
+footer span {
+  margin-right: 1rem;
+  text-align: right;
+}
